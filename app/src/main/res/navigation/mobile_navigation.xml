@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/nav_main"
-        android:name="com.projects.currencyhilt.fragments.HomeFragment"
+        android:name="com.uzprojects.currency.fragments.HomeFragment"
         android:label="PRO Valyuta kurslari"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_currency"
-        android:name="com.projects.currencyhilt.fragments.AllCurrenciesFragment"
+        android:name="com.uzprojects.currency.fragments.AllCurrenciesFragment"
         android:label="Barcha valyutalar"
         tools:layout="@layout/fragment_all_currencies">
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_calculator"
-        android:name="com.projects.currencyhilt.fragments.CalculatorFragment"
+        android:name="com.uzprojects.currency.fragments.CalculatorFragment"
         android:label="Kalkulyator"
         tools:layout="@layout/fragment_calculator" />
 

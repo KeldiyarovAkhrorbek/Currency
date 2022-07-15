@@ -23,7 +23,7 @@
         android:layout_marginTop="@dimen/_8sdp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/text"
-        tools:itemCount="4"
+        tools:itemCount="2"
         tools:listitem="@layout/item_history" />
 
 
